@@ -83,26 +83,3 @@ footer {
 }
 
 
-/* || XL (for extra large screen sizes such as desktops) */
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: rebeccapurple;
-    background-image: radial-gradient(whitesmoke, rebeccapurple);
-  }
-}
-
-/* || MOBILE DEVICE LANDSCAPE (for mobile landscape orientation) */
-@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
-  body {
-    background-color: firebrick;
-    background-image: radial-gradient(whitesmoke, firebrick);
-  }
-
-  h1, h2 {
-    font-size: 1.5rem;
-  }
-
-  nav {
-    display: none;
-  }
-}

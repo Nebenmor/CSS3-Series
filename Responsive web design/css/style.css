@@ -50,7 +50,7 @@ footer {
   bottom: 0;
 }
 
-/* || SMALL */
+/* || SMALL (for mobile screen sizes) */
 @media screen and (min-width: 576px) {
   body {
     background-color: green;
@@ -62,11 +62,44 @@ footer {
   }
 }
 
-/* || MEDIUM */
+/* || MEDIUM (for medium screen sizes such as tablets and iPads) */
 @media screen and (min-width: 768px) {
   body {
     background-color: gold;
     background-image: radial-gradient(whitesmoke, gold);
+  }
+
+  nav {
+    display: none;
+  }
+}
+
+/* || LARGE (for large screen sizes such as laptops) */
+@media screen and (min-width: 992px) {
+  body {
+    background-color: firebrick;
+    background-image: radial-gradient(whitesmoke, firebrick);
+  }
+}
+
+
+/* || XL (for extra large screen sizes such as desktops) */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: rebeccapurple;
+    background-image: radial-gradient(whitesmoke, rebeccapurple);
+  }
+}
+
+/* || MOBILE DEVICE LANDSCAPE (for mobile landscape orientation) */
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
+  body {
+    background-color: firebrick;
+    background-image: radial-gradient(whitesmoke, firebrick);
+  }
+
+  h1, h2 {
+    font-size: 1.5rem;
   }
 
   nav {

@@ -48,6 +48,10 @@ body {
     padding: 0.25rem;
     border-radius: 10px; */
 }
-/* End h1 text
- */
+
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
 

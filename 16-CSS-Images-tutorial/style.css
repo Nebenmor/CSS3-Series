@@ -38,6 +38,7 @@ body {
     background-size: cover;
 }
 
+/* h1 text */
 .h1 {
     font-size: 500%;
     color: white;
@@ -47,4 +48,6 @@ body {
     padding: 0.25rem;
     border-radius: 10px; */
 }
+/* End h1 text
+ */
 

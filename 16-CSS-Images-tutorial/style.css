@@ -55,3 +55,9 @@ body {
     border: 1px solid red;
 }
 
+.example img {
+    width: 25%;
+    height: auto;
+    display: block;
+}
+

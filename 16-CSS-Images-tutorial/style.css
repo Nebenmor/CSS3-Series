@@ -65,4 +65,11 @@ body {
     width: 35%;
 }
 
+.profile-pic-figure img {
+    width: 100%;
+    min-width: 100px;
+    height: auto;
+    border: 5px double gray;
+    border-radius: 50%;
+}
 

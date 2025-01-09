@@ -13,3 +13,14 @@ body {
 }
 /* End Reset */
 
+/* Utility Classes */
+    .nowrap {
+        white-space: nowrap;
+    }
+
+    .offscreen {
+        position: absolute;
+        left: -10000px;
+    }
+/* End Utility Classes*/
+
